@@ -1,0 +1,8 @@
+title = "CCL-Bench 1.0: A Trace-Based Benchmark for LLM Infrastructure"
+authors = ["Eric Ding", "Byungsoo Oh", "Bhaskar Kataria", "Kaiwen Guo", "Jelena Gvero", "Abhishek Vijaya Kumar", "Arjun Devraj", "Lindsey Bowen", "Atharv Sonwane", "Emaad Manzoor", "Rachee Singh"]
+date = 2026-05-07
+arxiv = "2605.06544"
+code = "https://github.com/cornell-sysphotonics/ccl-bench"
+category = "benchmark"
+summary = "A trace-based benchmark for LLM infrastructure that stores an execution trace, workload card and launch scripts for every data point; its CCL-Search agent, driven by Claude, proposes parallelism and other configurations, runs them on hardware and refines its policy from the results."
+result = "The best-tuned configuration on one training framework can run up to 3x slower than the best-tuned configuration on a peer framework on identical hardware."

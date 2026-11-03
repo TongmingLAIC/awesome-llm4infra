@@ -1,0 +1,7 @@
+title = "KernelEvolve: Scaling Agentic Kernel Coding for Heterogeneous AI Accelerators at Meta"
+authors = ["Gang Liao", "Hongsen Qin", "Ying Wang", "Alicia Golden", "Michael Kuchnik", "Yavuz Yetim", "Jia Jiunn Ang", "Chunli Fu", "Yihan He", "Samuel Hsia", "Zewei Jiang", "Dianshi Li", "Uladzimir Pashkevich", "Varna Puvvada", "Feng Shi", "Matt Steiner", "Ruichao Xiao", "Liyuan Li", "Nathan Yan", "Xiayu Yu", "Zhou Fang", "Roman Levenstein", "Kunming Ho", "Haishan Zhu", "Alec Hammond", "Richard Li", "Ajit Mathews", "Kaustubh Gondkar", "Abdul Zainul-Abedin", "Ketan Singh", "Hongtao Yu", "Wenyuan Chi", "Barney Huang", "Sean Zhang", "Noah Weller", "Zach Marine", "Wyatt Cook", "Carole-Jean Wu", "Gaoxiang Liu"]
+date = 2025-12-29
+arxiv = "2512.23236"
+category = "serving"
+summary = "An agentic kernel-coding framework deployed at Meta that generates and optimizes kernels for production recommendation models across NVIDIA and AMD GPUs and Meta's own accelerators, searching over several programming abstractions with retrieval-augmented prompts."
+result = "[Meta's engineering post](https://engineering.fb.com/2026/04/02/developer-tools/kernelevolve-how-metas-ranking-engineer-agent-optimizes-ai-infrastructure/) reports over 60% higher inference throughput for the Andromeda ads model on NVIDIA GPUs and over 25% higher training throughput for an ads model on Meta's MTIA chips."

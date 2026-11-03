@@ -1,0 +1,8 @@
+title = "Sol-H3: Recursive Self-Improvement for MiniMax-H3 Inference Acceleration on Sol-Engine across Cloud and Edge"
+authors = ["Yitong Li", "Jincheng Yu", "Junsong Chen", "Haopeng Li", "Shuchen Xue", "Haozhe Liu", "Ping Luo", "Song Han", "Enze Xie"]
+date = 2026-09-28
+arxiv = "2609.35110"
+code = "https://github.com/NVlabs/Sana/tree/sol-engine"
+category = "serving"
+summary = "A full-stack inference pipeline for the MiniMax-H3 video model in which a recursive self-improvement agent loop searches kernel fusions and memory layouts, checking latency and numerical agreement, next to a human-designed two-stage generation scheduler."
+result = "On a single DGX Spark the pipeline runs more than 30x faster than a full-resolution 49-step MiniMax-H3 baseline and uses about 20% less memory than a naive two-stage deployment; on an 8xGB200 node a 5-second 1344x768 video with audio is generated 3.5x faster than real time."

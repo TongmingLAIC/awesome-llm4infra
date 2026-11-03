@@ -1,0 +1,8 @@
+title = "AgentCompile: An LLM-Guided Compiler for Direct CUDA Inference"
+authors = ["Xuanzhe Li", "Ziyan Weng", "Zhiyu Zhu", "Junhui Hou"]
+date = 2026-06-04
+arxiv = "2606.07665"
+code = "https://github.com/veneno1213822/AgentCompile"
+category = "compiler"
+summary = "A CUDA inference compiler that uses an LLM in two ways: to give advisory metadata that bounds the compiler's template-based candidates, and to write five classes of decode-critical kernels under compiler-defined contracts, integrated into a serving runtime with paged KV cache and continuous batching."
+result = "Across six model families, 2.23-6.98x faster than PyTorch eager for single-request generation and 1.04-1.16x faster than vLLM for both single-request generation and multi-request serving."

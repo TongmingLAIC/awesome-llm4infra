@@ -1,0 +1,8 @@
+title = "KForge: LLM-Driven Cross-Platform Kernel Generation for AI Accelerators"
+authors = ["Taras Sereda", "Burak Bartan", "Ankita Nayak", "Tom St. John", "Natalie Serrino", "Zain Asgar"]
+date = 2026-06-01
+venue = "MLArchSys 2026 (ISCA workshop)"
+arxiv = "2606.02963"
+category = "serving"
+summary = "Two LLM agents generate kernels across accelerator backends: one writes and refines kernels from compiler and correctness feedback, the other reads profiling data and steers the next round."
+result = "On an NVIDIA B200, its kernels raise end-to-end throughput by 2.12% over TensorRT-LLM on the gpt-oss-20b inference benchmark."

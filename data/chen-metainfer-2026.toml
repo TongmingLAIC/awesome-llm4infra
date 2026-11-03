@@ -1,0 +1,7 @@
+title = "Automatic Model-Hardware Co-Adaptation for Heterogeneous AI Accelerators"
+authors = ["Tian Chen", "Mingheng Mi", "Pu Wang", "Chen Hu", "Hai Zhang"]
+date = 2026-07-14
+arxiv = "2607.12875"
+code = "https://github.com/HuangPuStar/MetaInfer/tree/arxiv-paper"
+category = "serving"
+summary = "MetaInfer, an LLM-agent system, adapts new models to existing accelerators by searching routes through a graph that links model semantics, framework dispatch, kernel choices and hardware, repairing blocked routes with patches and validating them with end-to-end profiling; shown on DeepSeek V4 Flash and GLM 5.3 Flash on NVIDIA A800 and DeepSeek V4 Flash on a Hygon K100AI DCU."

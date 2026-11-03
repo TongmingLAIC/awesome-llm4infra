@@ -1,0 +1,8 @@
+title = "VibeServe: Can AI Agents Build Bespoke LLM Serving Systems?"
+authors = ["Keisuke Kamahori", "Shihang Li", "Simon Peter", "Baris Kasikci"]
+date = 2026-05-07
+arxiv = "2605.06068"
+code = "https://github.com/uw-syfi/vibesys"
+category = "serving"
+summary = "Coding agents generate a complete LLM serving stack for a given model, workload and hardware: an outer loop plans the search over system designs, and an inner loop implements each candidate, checks correctness and measures it on the target benchmark."
+result = "Matches vLLM and SGLang on Llama-3.1-8B, reaches 2.3x the goodput of a tuned SGLang for a 397B MoE model on four AMD MI300As, and outperforms existing systems in five non-standard scenarios."

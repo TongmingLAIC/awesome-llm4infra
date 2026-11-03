@@ -1,0 +1,8 @@
+title = "Barbarians at the Gate: How AI is Upending Systems Research"
+authors = ["Audrey Cheng", "Shu Liu", "Melissa Pan", "Zhifei Li", "Bowen Wang", "Alex Krentsel", "Tian Xia", "Mert Cemri", "Jongseok Park", "Shuo Yang", "Jeff Chen", "Lakshya Agrawal", "Aditya Desai", "Jiarong Xing", "Koushik Sen", "Matei Zaharia", "Ion Stoica"]
+date = 2025-10-07
+arxiv = "2510.06189"
+code = "https://github.com/UCB-ADRS/ADRS"
+category = "method"
+summary = "Proposes AI-Driven Research for Systems (ADRS), in which an LLM-driven evolutionary loop generates, evaluates and refines system algorithms; its case studies include expert load balancing for Mixture-of-Experts inference."
+result = "For MoE expert-parallelism load balancing, OpenEvolve found an algorithm that runs 5.0x faster than a state-of-the-art frontier-lab reference implementation while balancing load about as well."

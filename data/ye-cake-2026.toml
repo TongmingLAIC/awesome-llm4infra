@@ -1,0 +1,7 @@
+title = "CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution"
+authors = ["Zihao Ye", "Yingyi Huang", "Hongyi Jin", "Bohan Hou", "Junru Shao", "Zhongming Yu", "Jinqi Chen", "Meghan Cowan", "Shiyi Cao", "Shanli Xing", "Hanfeng Chen", "Vinod Grover", "Tianqi Chen", "Luis Ceze"]
+date = 2026-08-12
+arxiv = "2608.12629"
+category = "compiler"
+summary = "Kernel agents write CAKE IR, a typed schedule representation that exposes warp roles, memory movement and synchronization to verification and cost modeling, and the harness turns recurring failures into new verifier rules and optimization tactics."
+result = "An agent-written FlashInfer kernel change gave up to 7.6% higher output throughput for GPT-OSS-120B in SGLang (concurrency 128, TP1; within noise at TP4)."

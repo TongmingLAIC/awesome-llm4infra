@@ -1,0 +1,7 @@
+title = "Research-Driven Agents: What Happens When Your Agent Reads Before It Codes"
+authors = ["Alex Kim"]
+date = 2026-04-09
+url = "https://skypilot.ai/blog/research-driven-agents"
+category = "serving"
+summary = "SkyPilot adds a research phase (papers, competing forks, other backends) to an autonomous coding-agent loop and points it at llama.cpp on four cloud VMs for about three hours."
+result = "Five optimizations, mostly kernel fusions, made flash-attention text generation for TinyLlama 1.1B 15% faster on x86 and 5% faster on ARM."

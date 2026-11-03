@@ -1,0 +1,8 @@
+title = "GEAK v4: From Faster Kernels to Faster Workloads"
+authors = ["Zihao An", "Yue Liu", "Chao Xu", "Ethan Yang", "Hongtao Meng", "Chushi Chen", "Puyuan Yang", "Subrahmanya Pavankumar Dubaguntta", "Saptarshi Majumder", "Umang Pandey", "Aditya Kumar Singh", "Fan Wang", "Zheng Yao", "Qiong Zhu", "Yixiong Huo", "Dan Li", "Ji Liu", "Zeping Li", "Ziqiong Liu", "Arthur Huang", "Fuwei Yang", "Pratik Prabhanjan Brahma", "Dong Li", "Zicheng Liu", "Emad Barsoum"]
+date = 2026-07-23
+url = "https://www.amd.com/en/developer/resources/technical-articles/2026/geak-v4.html"
+code = "https://github.com/AMD-AGI/GEAK/tree/v4.0.0"
+category = "serving"
+summary = "AMD's LLM kernel agents start from profiles of real serving workloads in vLLM and SGLang, optimize the kernels that dominate them, and measure the result as end-to-end serving throughput."
+result = "End-to-end serving-throughput gains of 60% on Qwen3.5-27B-FP8 and 96% on Qwen3-14B-FP8 (MI300X, SGLang, TP1, 1K input and output, concurrency 64), and 42.2% on MiniMax-M3-MXFP8 (MI355X, vLLM)."

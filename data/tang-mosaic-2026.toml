@@ -1,0 +1,7 @@
+title = "MOSAIC: More LLMs, Less Cost through Collaborative Reasoning for Compiler Optimizations"
+authors = ["Annabelle Sujun Tang", "Christopher Priebe", "Lianhui Qin", "Hadi Esmaeilzadeh"]
+date = 2026-02-02
+arxiv = "2602.01935"
+category = "compiler"
+summary = "Several LLMs of different sizes share one Monte Carlo search tree for compiler optimization: each node records which model proposed it, and the active model proposes both the next transformation and the model to call next, favoring cheaper models."
+result = "Against a single-LLM optimizer using GPT-5.2 alone with the same search budget, it improves the end-to-end Llama-3-8B speedup by 1.61x on an NVIDIA GPU and 1.41x on an Intel CPU while cutting API cost by 3.94x and 4.44x."

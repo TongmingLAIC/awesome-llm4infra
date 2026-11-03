@@ -1,0 +1,8 @@
+title = "Improving Coherence and Persistence in Agentic AI for System Optimization"
+authors = ["Pantea Karimi", "Kimia Noorbakhsh", "Mohammad Alizadeh", "Hari Balakrishnan"]
+date = 2026-03-22
+venue = "ACM CAIS 2026"
+arxiv = "2603.21321"
+code = "https://github.com/mit-nms/Engram"
+category = "method"
+summary = "A sequence of agents designs, tests and analyzes system mechanisms, keeping code, logs and results in a persistent archive and distilled insights in a research digest so that later runs start fresh but build on earlier ones; evaluated on multi-cloud multicast, LLM inference request routing and KV-cache reuse in databases."

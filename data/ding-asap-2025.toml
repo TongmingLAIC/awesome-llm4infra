@@ -1,0 +1,8 @@
+title = "ASAP: an Agentic Solution to Auto-optimize Performance of Large-Scale LLM Training"
+authors = ["Yuran Ding", "Xinwei Chen", "Xiaofan Zhang", "Zongwei Zhou"]
+date = 2025-11-05
+venue = "NeurIPS 2025 Workshop on ML for Systems"
+arxiv = "2511.03844"
+category = "training"
+summary = "Coordinator, analyzer and proposal agents combine LLM reasoning with profiler output, roofline analysis and a knowledge base of expert practice to diagnose bottlenecks in distributed LLM training and recommend sharding configurations."
+result = "In TPU case studies its recommended sharding matched the configurations human experts had arrived at, giving up to 28% lower step time and 1.43x throughput over the initial configurations; one such change reached 2.58x together with a larger batch size."

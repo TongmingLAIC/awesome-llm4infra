@@ -1,0 +1,8 @@
+title = "From Human Guidance to Autonomy: Agent Skill System for End-to-End LLM Deployment on Spatial NPUs"
+authors = ["Jiajie Li", "Erwei Wang", "Zhiru Zhang", "Samuel Bayliss"]
+date = 2026-05-27
+venue = "MLArchSys 2026 (ISCA workshop)"
+arxiv = "2606.07586"
+category = "serving"
+summary = "A reference deployment of Llama-3.2-1B on the AMD XDNA 2 NPU, built with human-guided agent assistance, is distilled into an eight-phase agent skill system that then deploys new LLMs end to end through the open-source compiler stack, with numerical-correctness gates at each phase."
+result = "The reference deployment runs prefill 2.2x and decode 4.0x faster than the hand-optimized baseline; the skill system then deployed eight more decoder-only LLMs autonomously in 0.5 to 4 hours of agent time each."

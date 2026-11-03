@@ -1,0 +1,8 @@
+title = "ISO-Bench: Can Coding Agents Optimize Real-World Inference Workloads?"
+authors = ["Ayush Nangia", "Shikhar Mishra", "Aman Gokrani", "Paras Chopra"]
+date = 2026-02-23
+arxiv = "2602.19594"
+code = "https://github.com/Lossfunk/ISO-Bench"
+category = "benchmark"
+summary = "54 inference-optimization tasks taken from merged vLLM and SGLang pull requests with measurable performance gains; the agent gets the codebase and a bottleneck description, and its patch is compared with the expert solution using execution-based and LLM-based metrics."
+result = "No single agent dominates across codebases, and agents often find the right bottleneck but fail to produce a working fix."

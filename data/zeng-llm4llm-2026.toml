@@ -1,0 +1,9 @@
+title = "LLM4LLM: Bridging Kernel Benchmarks and Real Deployment via Closed-Loop Agentic Optimization"
+authors = ["Hui Zeng", "Pengfei Yang", "Yanxin Chen", "Fusong Ju", "Xinran Wei"]
+date = 2026-08-22
+venue = "EMNLP 2026"
+arxiv = "2608.21836"
+code = "https://github.com/hzeng2000/LLM4LLM"
+category = "serving"
+summary = "Starting from a target inference script, an agent extracts phase-aware optimization tasks, searches for faster code using experience from earlier episodes, and accepts a patch only after validating it inside the running model."
+result = "Improves end-to-end latency on all ten evaluated LLM inference workloads, with 3.91x and 6.98x geometric-mean speedups over eager PyTorch on A100 and H100."

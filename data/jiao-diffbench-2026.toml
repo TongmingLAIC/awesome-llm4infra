@@ -1,0 +1,8 @@
+title = "DiffBench Meets DiffAgent: End-to-End LLM-Driven Diffusion Acceleration Code Generation"
+authors = ["Jiajun jiao", "Haowei Zhu", "Puyuan Yang", "Jianghui Wang", "Ji Liu", "Ziqiong Liu", "Dong Li", "Yuejian Fang", "Junhai Yong", "Bin Wang", "Emad Barsoum"]
+date = 2026-01-06
+venue = "AAAI 2026"
+arxiv = "2601.03178"
+category = "benchmark"
+summary = "DiffBench evaluates generated acceleration code for diffusion models across architectures, combinations of acceleration techniques and deployment scenarios; DiffAgent plans, writes and debugs that code in a closed loop, with a genetic algorithm using measured performance to guide refinement."
+result = "DiffAgent produces more effective diffusion acceleration strategies than existing LLMs."

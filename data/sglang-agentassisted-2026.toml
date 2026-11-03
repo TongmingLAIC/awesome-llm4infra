@@ -1,0 +1,6 @@
+title = "Agent-Assisted SGLang Development: An Initial Exploration"
+authors = ["SGLang Team"]
+date = 2026-07-02
+url = "https://www.lmsys.org/blog/2026-07-02-agent-assisted-sglang-development/"
+category = "serving"
+summary = "SGLang maintainers describe how coding agents with SGLang-specific skills profile, patch and validate the engine in long-running loops, and list merged changes with their end-to-end measurements."

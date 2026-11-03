@@ -1,0 +1,8 @@
+title = "ATTUNE: Agentic Throughput Tuning for LLM Training"
+authors = ["Leo Fan", "Hongyang Wang", "Wenbo Chen", "Jingguo Liu", "Xian Li", "Xuan Wang", "Ruochen Wen", "Yiming Yan", "Hao Wu", "Yichuan Li", "Qian Qu", "Zheshen Wang", "Benoit Dumoulin"]
+date = 2026-10-13
+arxiv = "2610.17528"
+code = "https://github.com/amazon-science/attune"
+category = "training"
+summary = "A coding agent tunes a working training recipe (parallelism, memory, kernels and communication overlap) unattended within a GPU-hour budget, changing one lever at a time, while a correctness gate outside the agent rejects arguments that would change the training objective."
+result = "Raises the throughput of Amazon's production post-training recipes on H100, H200 and B200 clusters by 1.7x on average, and beats the published throughput of four of NVIDIA's AutoModel benchmark recipes by 6-17%."

@@ -1,0 +1,8 @@
+title = "AI Compilers in the Agentic Era"
+authors = ["tile-ai"]
+date = 2026-09-10
+url = "https://tile-ai.github.io/TileFoundry.github.io/blog/AI-compilers-in-the-agentic-era/"
+code = "https://github.com/tile-ai/TileFoundry"
+category = "compiler"
+summary = "TileFoundry gives coding agents compiler tools for writing kernels; in this report Claude Code wrote the whole decode step of Nemotron-3.5-Lightning-30B-A3B as a single TileLang megakernel in about 12 hours, with two rounds of human input."
+result = "The generated decode reaches 97.5% of SGLang's decode throughput at short context and 83.2% at a 262,080-token context."

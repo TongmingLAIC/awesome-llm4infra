@@ -1,0 +1,8 @@
+title = "Sol Video Inference Engine: Agent-Native Full-Stack Acceleration Framework for Efficient Video Generation"
+authors = ["Yitong Li", "Junsong Chen", "Haopeng Li", "Haozhe Liu", "Jincheng Yu", "Ligeng Zhu", "Ping Luo", "Song Han", "Enze Xie"]
+date = 2026-06-21
+arxiv = "2606.23743"
+code = "https://github.com/NVlabs/Sana/tree/sol-engine"
+category = "serving"
+summary = "Parallel skill agents optimize cache reuse, sparse attention, token pruning, quantization and kernel fusion for a given video diffusion model, hardware and serving configuration, and an integrator agent composes them into one acceleration stack, with a human checking generation quality."
+result = "More than 2x end-to-end acceleration over the SGLang baseline on B200 GPUs, at near-lossless VBench quality, on Cosmos3-Super (64B), LTX-2.3 (22B) and SANA-Video (2B)."

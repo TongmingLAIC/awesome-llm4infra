@@ -1,0 +1,7 @@
+title = "FlashInfer-Bench: Building the Virtuous Cycle for AI-driven LLM Systems"
+authors = ["Shanli Xing", "Yiyan Zhai", "Alexander Jiang", "Yixin Dong", "Yong Wu", "Zihao Ye", "Charlie Ruan", "Yingyi Huang", "Yineng Zhang", "Liangsheng Yin", "Aksara Bayyapu", "Luis Ceze", "Tianqi Chen"]
+date = 2026-01-01
+arxiv = "2601.00227"
+code = "https://github.com/flashinfer-ai/flashinfer-bench"
+category = "benchmark"
+summary = "A benchmark for LLM-generated GPU kernels built on real serving traces, with a correctness- and performance-aware evaluator, a public leaderboard, and a mechanism that substitutes the best kernels into production engines such as SGLang and vLLM; its end-to-end case study measures how substituting fused add-RMSNorm kernels changes request latency in SGLang serving Llama-3.1-8B-Instruct."

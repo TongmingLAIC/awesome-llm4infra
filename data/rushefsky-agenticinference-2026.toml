@@ -1,0 +1,7 @@
+title = "Agentic inference optimization: 50-90% faster engines"
+authors = ["Shawn Rushefsky"]
+date = 2026-10-02
+url = "https://www.baseten.co/blog/agentic-inference-optimization-faster-than-sota/"
+category = "serving"
+summary = "At Baseten, Claude Code with Fable 5, using MetaInfer skills, built and iterated an inference engine for Qwen-3.6-35B-A3B in NVFP4 on one B200."
+result = "Against a well-tuned vLLM 0.25.1, up to 90% faster single-stream decode on speculator-friendly text and 2.33x faster time to first token (12 ms against 28 ms)."

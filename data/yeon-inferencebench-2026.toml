@@ -1,0 +1,8 @@
+title = "InferenceBench: A Benchmark for Open-Ended LLM Inference Optimization by AI Agents"
+authors = ["Jehyeok Yeon", "Ben Rank", "Maksym Andriushchenko"]
+date = 2026-05-20
+arxiv = "2607.20468"
+code = "https://github.com/aisa-group/InferenceBench"
+category = "benchmark"
+summary = "An agent gets a target LLM, one H100 and two hours to deploy an OpenAI-compatible inference server and optimize prefill latency, decode latency, concurrent throughput, or all three at once."
+result = "Across 15 agent configurations, agents improve on a naive PyTorch baseline by up to 8.08x and often match or exceed default vLLM (4.05x), but stay below a simple hyperparameter search with the same budget (up to 11.53x)."

@@ -1,0 +1,7 @@
+title = "Meet Hanoi, our ultra-fast inference engine"
+authors = ["Anirudh"]
+date = 2026-09-05
+url = "https://autoloops.ai/case-studies/hanoi"
+category = "serving"
+summary = "Claude Code wrote a from-scratch inference engine for Gemma 4 26B, about 36,000 lines of C++ and CUDA covering tokenizer, weight format, kernels, scheduler and HTTP server, without hand edits."
+result = "Serving 400 concurrent voice calls on one L40S 48 GB with the same FP8 Gemma checkpoint and simulator flags, median time to first token was 71 ms against 105 ms for vLLM tuned with an FP8 KV cache and an 8,192-token prefill cap."

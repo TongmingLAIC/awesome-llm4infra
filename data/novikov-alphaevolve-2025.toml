@@ -1,0 +1,7 @@
+title = "AlphaEvolve: A coding agent for scientific and algorithmic discovery"
+authors = ["Alexander Novikov", "Ngân Vũ", "Marvin Eisenberger", "Emilien Dupont", "Po-Sen Huang", "Adam Zsolt Wagner", "Sergey Shirobokov", "Borislav Kozlovskii", "Francisco J. R. Ruiz", "Abbas Mehrabian", "M. Pawan Kumar", "Abigail See", "Swarat Chaudhuri", "George Holland", "Alex Davies", "Sebastian Nowozin", "Pushmeet Kohli", "Matej Balog"]
+date = 2025-06-16
+arxiv = "2506.13131"
+category = "method"
+summary = "A Gemini-powered evolutionary coding agent that improves algorithms by editing code under automated evaluators; one application is the kernel tiling heuristic used in training the Gemini models."
+result = "The new heuristic gave an average 23% kernel speedup over the expert-designed one and a corresponding 1% reduction in Gemini's overall training time."

@@ -1,0 +1,8 @@
+title = "SEIS: Self-Evolving Inference Systems"
+authors = ["Zhen Xu", "Jingyu Liu", "Zongze Li", "Tahseen Rabbani", "Ce Zhang"]
+date = 2026-10-03
+arxiv = "2610.04646"
+code = "https://github.com/nehzux/SEIS"
+category = "serving"
+summary = "An agent optimizes the whole mini-sglang engine without human intervention over repeated sessions that inherit earlier code changes and experience; correctness is checked by numerical difference and downstream accuracy."
+result = "Serving Qwen3-0.6B on an H100, the evolved engine reaches 3.27x the throughput of the original mini-sglang and beats vLLM, TensorRT-LLM and SGLang on the single-request workload."

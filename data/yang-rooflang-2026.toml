@@ -1,0 +1,8 @@
+title = "RoofLang: Enabling AI-Driven Architecting of LLM Inference Systems"
+authors = ["Ziyue Yang", "Yuting Jiang", "Lei Qu", "Peng Cheng"]
+date = 2026-09-11
+arxiv = "2609.12551"
+code = "https://github.com/yzygitzh/rooflang"
+category = "serving"
+summary = "A domain-specific language that describes LLM inference workloads with a verifiable mutation space and an implementation-independent evaluator, so an optimizer agent can search inference-system architectures instead of profiling one existing software stack."
+result = "An optimizer agent found architectures that improve both throughput and interactivity of DeepSeek V4 Pro on NVIDIA B300 by 6.23-50.1%, according to RoofLang's evaluator."

@@ -1,0 +1,9 @@
+title = "REASONING COMPILER: LLM-Guided Optimizations for Efficient Model Serving"
+authors = ["Annabelle Sujun Tang", "Christopher Priebe", "Rohan Mahapatra", "Lianhui Qin", "Hadi Esmaeilzadeh"]
+date = 2025-06-02
+venue = "NeurIPS 2025"
+arxiv = "2506.01374"
+code = "https://github.com/he-actlab/REASONING_COMPILER"
+category = "compiler"
+summary = "Compiler optimization for model serving is cast as a sequential decision process in which an LLM proposes hardware-informed transformations and Monte Carlo tree search balances exploration and exploitation."
+result = "On an end-to-end Llama-3-8B benchmark across five CPU platforms, it reaches a 4.0x geometric-mean speedup over untuned code, against 2.8x for TVM's evolutionary search, using 3.9x fewer samples."

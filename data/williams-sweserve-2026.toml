@@ -1,0 +1,8 @@
+title = "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving"
+authors = ["Jennifer Williams", "Dave Farris", "Jeff Farris", "Jiantao Jiao"]
+date = 2026-09-22
+arxiv = "2609.26777"
+code = "https://github.com/NVIDIA/swe-serve"
+category = "benchmark"
+summary = "53 tasks derived from recent production changes to SGLang, evaluated with hidden functional and regression tests and, where applicable, end-to-end serving tests and calibrated performance gates."
+result = "The best configuration reaches 75% mean pass@1; on the 19 tasks with end-to-end coverage, serving tests reject roughly one third of the patches that pass every other test."

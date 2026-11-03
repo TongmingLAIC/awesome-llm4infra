@@ -1,0 +1,7 @@
+title = "SwarmOS and GPT-6 Astra Built a Qwen3.8 Trainer 11x Faster Than PyTorch"
+authors = ["INT21"]
+date = 2026-09-07
+url = "https://int21.ai/insights/swarmos-gpt-6-astra-qwen38-trainer/"
+category = "training"
+summary = "INT21's agent system SwarmOS, running GPT-6 Astra, generated a specialized Rust/CUDA trainer for Qwen3.8-27B."
+result = "On eight B200 GPUs, 11.5x the throughput of eager PyTorch FSDP2 and 21.5% higher throughput than PyTorch FSDP2 tuned by SwarmOS."

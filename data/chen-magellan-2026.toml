@@ -1,0 +1,7 @@
+title = "Magellan: Autonomous Discovery of Novel Compiler Optimization Heuristics with AlphaEvolve"
+authors = ["Hongzheng Chen", "Alexander Novikov", "Ngân Vũ", "Hanna Alam", "Zhiru Zhang", "Aiden Grossman", "Mircea Trofin", "Amir Yazdanbakhsh"]
+date = 2026-01-28
+venue = "C4ML workshop at CGO 2026"
+arxiv = "2601.21096"
+category = "method"
+summary = "An LLM coding agent combined with evolutionary search and autotuning synthesizes compiler heuristics as C++ decision logic that plugs into existing compilers; besides LLVM inlining and register allocation, it reports preliminary results on problems in XLA."

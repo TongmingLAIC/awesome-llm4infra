@@ -1,0 +1,9 @@
+title = "Glia: A Human-Inspired AI for Automated Systems Design and Optimization"
+authors = ["Pouya Hamadanian", "Pantea Karimi", "Arash Nasr-Esfahany", "Kimia Noorbakhsh", "Joseph Chandler", "Ali ParandehGheibi", "Mohammad Alizadeh", "Hari Balakrishnan"]
+date = 2025-10-31
+venue = "ACM CAIS 2026"
+arxiv = "2510.27176"
+code = "https://github.com/mit-nms/Engram/tree/glia"
+category = "serving"
+summary = "LLM agents specialized for reasoning, experimentation and analysis design mechanisms for a distributed GPU cluster serving LLMs, producing interpretable request-routing, scheduling and autoscaling algorithms."
+result = "The generated algorithms perform at human-expert level and are found in significantly less time."

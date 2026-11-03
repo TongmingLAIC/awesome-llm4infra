@@ -1,0 +1,9 @@
+title = "Rudder: Steering Prefetching in Distributed GNN Training using LLM Agents"
+authors = ["Aishwarya Sarkar", "Sayan Ghosh", "Nathan Tallent", "Aman Chadha", "Tanya Roosta", "Ali Jannesari"]
+date = 2026-02-26
+venue = "ICS 2026"
+arxiv = "2602.23556"
+code = "https://github.com/aishwaryyasarkar/rudder-llm-agent"
+category = "training"
+summary = "A module inside AWS DistDGL in which LLM agents decide, during distributed GNN training, which remote nodes to prefetch, adapting to the graph, its partitioning, and the sampling and batch settings."
+result = "On NERSC Perlmutter, up to 91% better end-to-end training performance than DistDGL without prefetching and 82% better than static prefetching, with over 50% less communication."

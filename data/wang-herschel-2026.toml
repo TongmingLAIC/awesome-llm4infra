@@ -1,0 +1,7 @@
+title = "Herschel: Continuous Optimization of Production LLM Inference through On-Demand Profiling"
+authors = ["Luping Wang", "Weigao Chen", "Yifei Wu", "Yonghe Zhang", "Rui Zhang", "Wenchao Wu", "Jiyu Luo", "Haoran Geng", "Xin Yang", "Chen Cao", "Yuemin Wu", "Cheng Huang", "Guodong Yang", "Liping Zhang"]
+date = 2026-09-30
+arxiv = "2609.40247"
+category = "serving"
+summary = "A production system for continuous LLM-inference optimization: on-demand profiling of running serving processes finds inefficiencies, and AI agents implement and test engine and kernel changes under the triggering workload, with expert review before deployment."
+result = "Over six months it collected about 17,000 traces across more than 120 model variants and more than 10 accelerator types, finding inefficiency patterns in 23% of them; representative findings led to widely deployed optimizations."

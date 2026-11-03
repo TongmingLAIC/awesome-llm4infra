@@ -1,0 +1,6 @@
+title = "An AlphaGo Moment for Inference?"
+authors = ["INT21"]
+date = 2026-09-28
+url = "https://int21.ai/insights/ai-generated-inference-engines/"
+category = "serving"
+summary = "INT21 reports AI-generated inference engines for 15 models, built by two engineers in two weeks, and compares them with SGLang and vLLM on the same workloads."

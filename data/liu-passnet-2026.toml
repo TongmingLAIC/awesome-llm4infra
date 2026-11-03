@@ -1,0 +1,8 @@
+title = "PassNet: Scaling Large Language Models for Graph Compiler Pass Generation"
+authors = ["Yiqun Liu", "Yingsheng Wu", "Ruqi Yang", "Enrong Zheng", "Honglei Qiu", "Sijun He", "Tai Liang", "Jingjing Wu", "Yuhan Zhou", "Yiwei Zhang", "Dongyan Chen", "Weihan Yi", "Xinqi Li", "Siqi Bao"]
+date = 2026-05-28
+arxiv = "2605.29357"
+code = "https://github.com/PaddlePaddle/PassNet"
+category = "compiler"
+summary = "LLMs write graph-compiler passes that plug into the compiler pipeline instead of standalone kernels; PassNet supplies over 18,000 computational graphs from real models and PassBench, 200 long-tail fusion tasks scored against TorchInductor."
+result = "The best frontier model trails TorchInductor by 37% on PassBench's correctness-aware aggregate score, though LLMs reach up to 3x speedup over it on individual subgraphs; fine-tuning Qwen3-30B-A3B on about 4,000 trajectories raises its score 2.67x."

@@ -1,0 +1,8 @@
+title = "EdgeFM: Efficient Edge Inference for Vision-Language Models"
+authors = ["Mengling Deng", "Yuanpeng Chen", "Sheng Yang", "Wei Tao", "Wenhai Zhang", "Hui Song", "Linyuanhao Qin", "Kai Zhao", "Xiaojun Ye", "Shanhui Mo", "Jingli Fan", "Shuang Zhang", "Bei Liu", "Tiankun Zhao", "Xiangjing An"]
+date = 2026-04-30
+arxiv = "2604.27476"
+code = "https://github.com/windog-labs/edge-fm-x"
+category = "serving"
+summary = "A lightweight inference framework for vision-language models on edge devices that packages agent-tuned kernel optimizations as reusable skills, supporting x86, NVIDIA Orin and the Horizon Journey platform; reported results cover the framework as a whole."
+result = "Up to 1.49x faster than TensorRT-Edge-LLM on NVIDIA Orin."

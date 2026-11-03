@@ -1,0 +1,8 @@
+title = "Primus Tuning Agent: Closing the Configuration-Search Loop"
+authors = ["Anshu Raina", "Peyman Razaghi", "Yuankai Chen", "Cheng Yao", "Yao Fu", "Vidushi Goyal", "Devang Patel", "Wen Xie", "Zhenyu Gu", "Emad Barsoum"]
+date = 2026-07-06
+url = "https://rocm.blogs.amd.com/software-tools-optimization/primus-tuning-agent/README.html"
+code = "https://github.com/AMD-AGI/Primus/tree/main/primus/agents/tuning_agent"
+category = "training"
+summary = "After a deterministic seed planner, an LLM proposes training configurations for AMD's Primus framework (parallelism, recomputation, MoE communication, precision), scored by a performance projection, and the best proposals are run on the real cluster."
+result = "On Mixtral 8x22B (FP8, four MI355X nodes), the best LLM-proposed configuration measured 4,402 tokens/s/GPU, 27% above AMD's published BF16 reference of 3,475."

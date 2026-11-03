@@ -1,0 +1,8 @@
+title = "Φ-Bench: Can Large Language Models Engineer the Infrastructure That Powers Them?"
+authors = ["Leilei Ding", "Shumin Wang", "Yuting Huang", "Fanqi Wan", "Yinmin Zhang", "Qi Han", "Yiming Xu", "Feiyuan Zhang", "Xiaomeng Chu", "Guoliang You", "Wuyang Zhang", "Daxin Jiang", "Yanyong Zhang"]
+date = 2026-09-09
+arxiv = "2609.10226"
+code = "https://github.com/one2piece2hello/faibench_Frontier_InfraBench"
+category = "benchmark"
+summary = "85 tasks built from real LLM training and inference codebases, from kernel function completion to long-horizon implementation and repository-wide end-to-end optimization, with rewards gated by correctness and anti-hacking checks."
+result = "The strongest of eight frontier models, Claude Opus 5, scores 36.53%, and every model does worse on long-horizon repository-level tasks than on kernel-level ones."

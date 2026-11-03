@@ -1,0 +1,7 @@
+title = "Toward Recursive Self-Improvement: How GLM Built Its Own Inference Infrastructure"
+authors = ["Z.ai"]
+date = 2026-09-17
+url = "https://z.ai/blog/glm-built-its-inference-infrastructure"
+category = "serving"
+summary = "Z.ai describes taking GLM-5.3-Flash from initial adaptation to production, with much of the engineering carried out by an Infra Agent powered by GLM-5.3 that ran a feedback loop through the optimization."
+result = "End-to-end throughput roughly tripled relative to the initial baseline on a production cluster of more than 100,000 Chinese-made AI accelerators; the optimizations included mixed-precision cache quantization and an encode-prefill-decode disaggregated architecture."
